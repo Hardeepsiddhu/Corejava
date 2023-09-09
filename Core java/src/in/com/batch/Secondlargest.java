@@ -9,11 +9,8 @@ public class Secondlargest {
 			if(arr[i]>b) {
 				a = b;
 				b = arr[i];
-							}
-			if(arr[i]< b && arr[i]>a) {
-				a = arr[i];
 			}
-		}
+				}
 		System.out.println(a);
 	}
 
